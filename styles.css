@@ -3,38 +3,57 @@ body {
 }
 .test3 {
 	width: 25px;
-    height:25px;
-    border-top: 15px solid red;
-    border-right: 15px solid yellow;
-    border-bottom: 15px solid blue;
-    border-left: 15px solid green;
-    transform: rotate(45deg);
+  height:25px;
+  border-top: 15px solid red;
+  border-right: 15px solid yellow;
+  border-bottom: 15px solid blue;
+  border-left: 15px solid green;
+  transform: rotate(45deg);
 }
 .line-arrow-down {
 	width: 25px;
-    height: 25px;
-    border-right: 15px solid yellow;
-    border-bottom: 15px solid blue;
-    transform: rotate(45deg);
+  height: 25px;
+  border-right: 15px solid yellow;
+  border-bottom: 15px solid blue;
+  transform: rotate(45deg);
 }
 .line-arrow-left {
 	width: 25px;
-    height:25px;
-    border-bottom: 15px solid blue;
-    border-left: 15px solid green;
-    transform: rotate(45deg);
+  height:25px;
+  border-bottom: 15px solid blue;
+  border-left: 15px solid green;
+  transform: rotate(45deg);
 }
 .line-arrow-top {
 	width: 25px;
-    height:25px;
-    border-top: 15px solid red;
-    border-left: 15px solid green;
-    transform: rotate(45deg);
+  height:25px;
+  border-top: 15px solid red;
+  border-left: 15px solid green;
+  transform: rotate(45deg);
 }
 .line-arrow-right {
 	width: 25px;
-    height:25px;
-    border-top: 15px solid red;
-    border-right: 15px solid yellow;
-    transform: rotate(45deg);
+  height:25px;
+  border-top: 15px solid red;
+  border-right: 15px solid yellow;
+  transform: rotate(45deg);
+}
+.test4 {
+	border: 1px solid red;
+  border-width: 0 5px 5px 0;
+  padding: 10px;
+  display: inline-block;
+  margin: 8px 0;
+}
+.rotate-line-arrow-down {
+  transform: rotate(45deg);
+}
+.rotate-line-arrow-left {
+  transform: rotate(135deg);
+}
+.rotate-line-arrow-right {
+  transform: rotate(-45deg);
+}
+.rotate-line-arrow-up {
+  transform: rotate(-135deg);
 }
