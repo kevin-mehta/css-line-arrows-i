@@ -2,8 +2,8 @@ body {
   padding: 10px;
 }
 .test3 {
-	width: 25px;
-  height:25px;
+  width: 25px;
+  height: 25px;
   border-top: 15px solid red;
   border-right: 15px solid yellow;
   border-bottom: 15px solid blue;
@@ -11,35 +11,35 @@ body {
   transform: rotate(45deg);
 }
 .line-arrow-down {
-	width: 25px;
+  width: 25px;
   height: 25px;
   border-right: 15px solid yellow;
   border-bottom: 15px solid blue;
   transform: rotate(45deg);
 }
 .line-arrow-left {
-	width: 25px;
-  height:25px;
+  width: 25px;
+  height: 25px;
   border-bottom: 15px solid blue;
   border-left: 15px solid green;
   transform: rotate(45deg);
 }
 .line-arrow-top {
-	width: 25px;
-  height:25px;
+  width: 25px;
+  height: 25px;
   border-top: 15px solid red;
   border-left: 15px solid green;
   transform: rotate(45deg);
 }
 .line-arrow-right {
-	width: 25px;
-  height:25px;
+  width: 25px;
+  height: 25px;
   border-top: 15px solid red;
   border-right: 15px solid yellow;
   transform: rotate(45deg);
 }
 .test4 {
-	border: 1px solid red;
+  border: 1px solid red;
   border-width: 0 5px 5px 0;
   padding: 10px;
   display: inline-block;
@@ -59,15 +59,17 @@ body {
 }
 
 .arrow {
-  width: 63px;
+  width: 43px;
   height: 24px;
   margin: 5px;
   border: 1px solid #000;
   border-right: none;
   position: relative;
+  background-color: #000;
+  color: white;
 }
 .arrow:before {
-  content: "";
+  /* content: "";
   position: absolute;
   right: -10px;
   top: 3px;
@@ -75,5 +77,15 @@ body {
   height: 17px;
   border-top: 1px solid #000;
   border-right: 1px solid #000;
-  transform: rotate(45deg);
+  transform: rotate(45deg); */
+
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -15px;
+  top: -2px;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid green;
 }
